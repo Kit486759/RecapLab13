@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* .appWrapper {
+  border-top: 761px solid #9c27b0;
+  border-right: 1010px solid white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: inline;
+  z-index: -1;
+} */
+
+.bg {
+  border-top: 100vh solid #9c27b0;
+  border-right: 100vw solid white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: inline;
+  z-index: -1;
+}
+
+.bg-inverse {
+  border-bottom: 100vh solid #9c27b0;
+  border-left: 100vw solid white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: inline;
+  z-index: -1;
+}

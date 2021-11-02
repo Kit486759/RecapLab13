@@ -65,6 +65,7 @@ export default function Login() {
              Not a Member yet ?<Link to={"/signup"}>Sign Up</Link>
              </CardContent>
       </Card>
+      <div className="bg"></div>
     </div>
   );
 }
